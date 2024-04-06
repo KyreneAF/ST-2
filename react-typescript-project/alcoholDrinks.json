@@ -1,0 +1,110 @@
+[
+  {
+    "name": "SPIKED MILK TEA",
+    "ingredients": ["Brandy", "Boba"],
+    "size": ["$9", "$10"]
+  },
+  {
+    "name": "SPIKED STRAWBERRY MILK TEA",
+    "ingredients": ["Rum", "Boba"],
+    "size": ["$9", "$10"]
+  },
+  {
+    "name": "SPIKED THAI TEA",
+    "ingredients": ["Rum", "Coffee Jelly"],
+    "size": ["$9", "$10"]
+  },
+  {
+    "name": "TARO REFRESHER",
+    "ingredients": ["Rum", "Crystal Boba"],
+    "size": ["$9", "$10"]
+  },
+  {
+    "name": "BERRY MOJITO",
+    "ingredients": ["Rum", "Mint", "Strawberry", "Sparkling Soda", "Boba"],
+    "size": ["$9", "$10"]
+  },
+  {
+    "name": "PIÑA COLADA",
+    "ingredients": ["Rum", "Coconut Creamer", "Pineapple"],
+    "size": ["$9", "$10"]
+  },
+  {
+    "name": "HONEYDEW REFRESHER",
+    "ingredients": ["Tequila", "Boba"],
+    "size": ["$9", "$10"]
+  },
+  {
+    "name": "CRANBERRY SURPRISE",
+    "ingredients": [
+      "Vodka",
+      "Cranberry Juice",
+      "Pineapple",
+      "Sparkling Soda",
+      "Strawberry Popping Boba"
+    ],
+    "size": ["$9", "$10"]
+  },
+  {
+    "name": "JASMINE GREEN TEA",
+    "ingredients": [
+      "PLAIN, MANGO, STRAWBERRY",
+      "VODKA",
+      "ELDER FLOWER LIQUEUR",
+      "RAINBOW JELLY"
+    ],
+    "size": ["$9", "$10"]
+  },
+  {
+    "name": "LYCHEE SURPRISE",
+    "ingredients": [
+      "Vodka",
+      "Lemonade",
+      "Dragonfruit",
+      "Sparkling Soda",
+      "Rainbow Jelly"
+    ],
+    "size": ["$9", "$10"]
+  },
+  {
+    "name": "TEQUILA SUNRISE",
+    "ingredients": [
+      "Tequila",
+      "Orange Juice",
+      "Grenadine",
+      "Strawberry Popping Boba"
+    ],
+    "size": ["$9", "$10"]
+  },
+  {
+    "name": "SPIKED GREEN TEA",
+    "ingredients": ["Jameson Whiskey", "Peach Schnapps", "Sweet & Sour Mix"],
+    "size": ["$9", "$10"]
+  },
+  {
+    "name": "PEACH BLACK TEA",
+    "ingredients": ["Crown Peach Whiskey"],
+    "size": ["$9", "$10"]
+  },
+  {
+    "name": "PASSIONFRUIT BOMB",
+    "ingredients": [
+      "Bombay Gin",
+      "Jasmine Green Tea",
+      "Tonic Water",
+      "Lychee Jelly"
+    ],
+    "size": ["$9", "$10"]
+  },
+  {
+    "name": "MANGO PALOMA",
+    "ingredients": [
+      "Tequila",
+      "Orange Liqueur",
+      "Grapefruit Juice",
+      "Sparkling Soda",
+      "Crystal Boba"
+    ],
+    "size": ["$9", "$10"]
+  }
+]

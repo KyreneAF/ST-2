@@ -106,5 +106,16 @@
       "Crystal Boba"
     ],
     "size": ["$9", "$10"]
+  },
+  {
+    "name": "Frozen Margarita",
+    "ingredients": [
+      "MANGO",
+      "LYCHEE",
+      "PASSIONFRUIT",
+      "PINEAPPLE",
+      "STRAWBERRY"
+    ],
+    "size": ["$8"]
   }
 ]

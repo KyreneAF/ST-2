@@ -1,0 +1,48 @@
+[
+  {
+    "name": "CLASSIC MILK TEA",
+    "ingredients": [],
+    "size": ["$4", "$5"]
+  },
+  {
+    "name": "STRAWBERRY MILK TEA",
+    "ingredients": [],
+    "size": ["$4", "$5"]
+  },
+  {
+    "name": "THAI TEA",
+    "ingredients": [],
+    "size": ["$4", "$5"]
+  },
+  {
+    "name": "TARO REFRESHER",
+    "ingredients": [],
+    "size": ["$4", "$5"]
+  },
+  {
+    "name": "HONEYDEW REFRESHER",
+    "ingredients": [],
+    "size": ["$4", "$5"]
+  },
+  {
+    "name": "JASMINE GREEN TEA",
+    "ingredients": ["PLAIN", "MANGO", "STRAWBERRY"],
+    "size": ["$4", "$5"]
+  },
+  {
+    "name": "PEACH BLACK TEA",
+    "ingredients": [],
+    "size": ["$4", "$5"]
+  },
+  {
+    "name": "SLUSHIES",
+    "ingredients": [
+      "LYCHEE",
+      "MANGO",
+      "STRAWBERRY",
+      "PINEAPPLE",
+      "PASSIONFRUIT"
+    ],
+    "size": ["$4", "$5"]
+  }
+]

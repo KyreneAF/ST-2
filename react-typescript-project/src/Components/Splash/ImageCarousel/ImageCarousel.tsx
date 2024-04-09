@@ -14,7 +14,7 @@ import {
 const ImageCarousel = () => {
   const [settings, setSettings] = useState({
     autoplay: true,
-    autoplaySpeed: 4000, // Change slide every 3 seconds
+    autoplaySpeed: 4000, // Change slide every 4 seconds
     dots: true,
     infinite: true,
     speed: 500,

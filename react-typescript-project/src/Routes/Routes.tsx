@@ -4,11 +4,11 @@ import Menu from "../Components/Menu/Menu.tsx";
 import RegularMenu from "../Components/RegularMenu/RegularMenu.tsx";
 import SpikedMenu from "../Components/SpikedMenu/SpikedMenu.tsx";
 import Splash from "../Components/Splash/Splash.tsx";
+import AboutUs from "../Components/AboutUs/AboutUs.tsx";
 // import App from "../App";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
     element: <App />,
     children: [
       {
@@ -27,6 +27,10 @@ export const router = createBrowserRouter([
         path: "spiked-menu",
         element: <SpikedMenu />,
       },
+      {
+        path:"about",
+        element: <AboutUs />
+      }
     ],
   },
 ]);

@@ -8,7 +8,7 @@ const Navigation = () => {
   return (
     <div className="navbar">
       <div className="__logo">
-        <img src={transparentLogo} />
+        <img className='__logo-img' src={transparentLogo} />
         <div className="__banner">
           <img src={banner} />
         </div>

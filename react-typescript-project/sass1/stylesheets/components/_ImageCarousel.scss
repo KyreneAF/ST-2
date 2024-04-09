@@ -1,0 +1,12 @@
+.image-carousel {
+
+    .carousel-img {
+      // max-height: 90vh; /* Set maximum height to 90% of viewport height */
+      // max-width: 60vw; /* Set maximum width to 60% of viewport width */
+      // width: auto; /* Allow the width to adjust proportionally */
+      // height: auto;
+      height:100vh;
+      width: 100vw;
+      object-fit: cover;
+    }
+  }

@@ -2,12 +2,28 @@ import { Outlet } from "react-router";
 import "./App.css";
 import Navigation from "./Components/Navigation/Navigation";
 
+// function App() {
+//   return (
+//     <div className="App">
+//       <div>
+//         <Navigation />
+//       </div>
+//       <div>
+//         <Outlet />
+//       </div>
+//     </div>
+//   );
+// }
 function App() {
   return (
-    <>
-      <Navigation />
-      <Outlet />
-    </>
+    <div className="app-container">
+      <div className="navigation-container">
+        <Navigation />
+      </div>
+      <div className="outlet-container">
+        <Outlet />
+      </div>
+    </div>
   );
 }
 

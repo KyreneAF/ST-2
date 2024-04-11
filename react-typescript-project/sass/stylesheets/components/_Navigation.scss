@@ -1,0 +1,95 @@
+@import "../abstracts/variables.scss";
+
+/* NAV BAR */
+.navbar {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 80%;
+  .__logo{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .__logo img {
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+    align-self: center;
+  }
+  // COMPANY NAME IMAGE
+  .__logo .__banner img {
+    margin-top: 10px;
+    height: 60px;
+    width: 100%;
+  }
+  .navLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    margin-left: 12px;
+    font-size: 20px;
+    align-items: start;
+    transition: transform 0.5s ease;
+    a.active{
+      color:$brand-color
+
+    }
+
+
+}
+a:hover {
+
+  color: $brand-color;
+  transform: scale(1.1);
+}
+
+
+}
+
+//Media query for adjustments of screen
+@media (max-width: 768px){
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        width:100%;
+        height:40px;
+        justify-content: center;
+        align-items: center;
+
+        .navLinks{
+            display: flex;
+            flex-direction: row;
+            font-size: 10px;
+            a{
+                font-size: 15px;
+            }
+        }
+        .__logo{
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          .__logo-img{
+            height:5px;
+            width:5px;
+            visibility: hidden;
+          }
+        }
+
+        .__banner img {
+            width: 30px;
+            height: 20px;
+        }
+    }
+
+  }
+
+.navbar a {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  color: $dark-grey;
+}

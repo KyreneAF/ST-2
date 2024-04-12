@@ -1,0 +1,40 @@
+@import "../abstracts/variables.scss";
+
+.menu {
+  //Menu images
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: $light-grey;
+  .__menu-img {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 80%;
+  }
+
+  .__menu-header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    h1 {
+      font-size: 40px;
+      font-family: sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      color: $dark-grey;
+      margin: 0;
+    }
+  }
+  .__regular-menu-img {
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+  }
+  .__spiked-menu-img {
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+  }
+}

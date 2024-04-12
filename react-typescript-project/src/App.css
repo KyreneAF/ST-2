@@ -17,7 +17,8 @@ body {
   flex: 0 0 auto;
   width: 200px; /* Adjust the width as needed */
   height: 100%;
-  width: 300px;
+  width: 250px;
+
   /* background-color: blue; */
 }
 
@@ -28,14 +29,14 @@ body {
 }
 
 @media (max-width: 768px) {
-  .app-container{
+  .app-container {
     flex-direction: column;
   }
-  .navigation-container{
+  .navigation-container {
     display: flex;
     flex-direction: row;
-    width:100%;
-    height:100px;
+    width: 100%;
+    height: 100px;
     margin-top: 20px;
   }
 }

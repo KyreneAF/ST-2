@@ -43,7 +43,7 @@
   },
   {
     "name": "CRANBERRY SURPRISE",
-    "image": "../src/assets/images/spikedImages/cranberrySurprise.jpg",
+    "image": "../src/assets/images/spikedImages/cranberrySurprise.jpeg",
     "ingredients": [
       "Vodka",
       "Cranberry Juice",
@@ -66,13 +66,13 @@
   },
   {
     "name": "LYCHEE SURPRISE",
-    "image": "../src/assets/images/spikedImages/spikedLycheeSurprise..jpg",
+    "image": "../src/assets/images/spikedImages/spikedLychee.jpg",
     "ingredients": ["Vodka", "Lemonade", "Sparkling Soda", "Lychee Jelly"],
     "size": ["$9", "$10"]
   },
   {
     "name": "DRAGONFRUIT LEMONADE",
-    "image": "../src/assets/images/spikedImages/spikedDragonfruitLemonade..jpg",
+    "image": "../src/assets/images/spikedImages/spikedDragonfruitLemonade.jpg",
     "ingredients": [
       "Vodka",
       "Lemonade",
@@ -95,7 +95,7 @@
   },
   {
     "name": "SPIKED GREEN TEA",
-    "image": "../src/assets/images/spikedImages/spikedGreenteajpg",
+    "image": "../src/assets/images/spikedImages/spikedGreentea.jpeg",
     "ingredients": ["Jameson Whiskey", "Peach Schnapps", "Sweet & Sour Mix"],
     "size": ["$9", "$10"]
   },
@@ -107,7 +107,7 @@
   },
   {
     "name": "PASSIONFRUIT BOMB",
-    "image": "../src/assets/images/spikedImages/passionfruitBomb.jpg",
+    "image": "../src/assets/images/spikedImages/passionfruitBomb.jpeg",
     "ingredients": [
       "Bombay Gin",
       "Jasmine Green Tea",
@@ -118,7 +118,7 @@
   },
   {
     "name": "MANGO PALOMA",
-    "image": "../src/assets/images/spikedImages/mangoPaloma.jpg",
+    "image": "../src/assets/images/spikedImages/mangoPaloma.jpeg",
     "ingredients": [
       "Tequila",
       "Orange Liqueur",
@@ -130,7 +130,7 @@
   },
   {
     "name": "Frozen Margarita",
-    "image": "../src/assets/images/spikedImages/frozenMargarita.jpg",
+    "image": "../src/assets/images/spikedImages/frozenMargarita.jpeg",
     "ingredients": [
       "MANGO",
       "LYCHEE",

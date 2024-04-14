@@ -25,6 +25,7 @@ const AboutUs = () => {
           <i className="fa-brands fa-instagram"></i>
         </a>
       </div>
+      {/* THIS CODE WAS FOR A PREVIOUS VIDEO FILE TOO LARGE TO UPLOAD TO GIT HUB SO I WILL COME BACK FOR ALTERNATIVE*/}
       {/* <div className="__about-us-text">
         <h2>Dallas' first alcoholic boba shop is here!</h2>
       </div> */}

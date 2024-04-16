@@ -2,10 +2,11 @@
 .regular-menu {
   height: 100%;
   display: flex;
-  // background-color: rgb(237, 237, 237);
+  background-color: hsl(0, 0%, 96%);
   font-family: sans-serif;
   color: $dark-grey;
   .all-drinks {
+    margin-top: 40px;
     justify-content: center;
     padding: 20px;
     display: flex;
@@ -13,7 +14,9 @@
     gap: 40px;
     width: 100%; /* Fill the entire width of the page */
     height: 100vh; /* Fill the entire height of the viewport */
+    // height: 100%; /* Fill the entire height of the viewport */
     gap: 40px;
+    background-color: hsl(0, 0%, 96%);
   }
   .single-drink {
     display: flex;

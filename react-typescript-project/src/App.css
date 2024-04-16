@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: hsl(0, 0%, 96%);
 }
 .navbar {
   height: 100%;
@@ -25,7 +26,8 @@ body {
 .outlet-container {
   flex: 1;
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
+  background-color: hsl(0, 0%, 96%);
 }
 
 @media (max-width: 768px) {

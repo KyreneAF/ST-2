@@ -25,6 +25,16 @@ const AboutUs = () => {
           <i className="fa-brands fa-instagram"></i>
         </a>
       </div>
+      <div className="__aboutUs-text">
+        <span>Dallas' first alcohol boba shop!</span>
+        <p>
+          Tired of the same old boring drinks? Dallas, it's time to level up
+          your happy hour! Shot Tea is shaking things up with boozy boba tea!
+          It's the perfect mix of sweet, refreshing, and tipsy. We have regular
+          boba, boozy boba, and are a great pregame spot to get boozy boba
+          to-go!
+        </p>
+      </div>
       {/* THIS CODE WAS FOR A PREVIOUS VIDEO FILE TOO LARGE TO UPLOAD TO GIT HUB SO I WILL COME BACK FOR ALTERNATIVE*/}
       {/* <div className="__about-us-text">
         <h2>Dallas' first alcoholic boba shop is here!</h2>

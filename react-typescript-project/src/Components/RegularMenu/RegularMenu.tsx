@@ -9,7 +9,7 @@ const RegularMenu = () => {
           <div key={index} className="single-drink">
             <span>{drinkObj.name}</span>
             <div key={index} className="ingredients">
-              {drinkObj.ingredients.map((ingredient, index) => (
+              {drinkObj.ingredients.map((ingredient) => (
                 <span>{ingredient}</span>
               ))}
             </div>

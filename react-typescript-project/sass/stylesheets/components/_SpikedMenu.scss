@@ -1,0 +1,66 @@
+@import "../abstracts/variables.scss";
+.regular-menu {
+  height: 100%;
+  display: flex;
+  background-color: hsl(0, 0%, 96%);
+  font-family: sans-serif;
+  color: $dark-grey;
+  .all-drinks {
+    margin-top: 40px;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%; /* Fill the entire width of the page */
+    height: 100vh; /* Fill the entire height of the viewport */
+    // height: 100%; /* Fill the entire height of the viewport */
+    gap: 40px;
+    background-color: hsl(0, 0%, 96%);
+  }
+  .single-drink {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid $light-grey;
+    border-radius: 10px;
+    padding: 5px;
+    gap: 15px;
+    background-color: white;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    .__drink-name {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    img {
+      height: 120px;
+      width: 120px;
+      margin-top: 20px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+    .price {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      color: $mid-grey;
+    }
+  }
+}
+.ingredients {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  gap: 5px;
+
+  p {
+    font-size: 15px;
+    margin: 0;
+    color: $mid-grey;
+  }
+}

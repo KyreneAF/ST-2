@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: hsl(0, 0%, 96%);
 }
 .navbar {
   height: 100%;
@@ -17,25 +18,27 @@ body {
   flex: 0 0 auto;
   width: 200px; /* Adjust the width as needed */
   height: 100%;
-  width: 300px;
+  width: 250px;
+
   /* background-color: blue; */
 }
 
 .outlet-container {
   flex: 1;
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
+  background-color: hsl(0, 0%, 96%);
 }
 
 @media (max-width: 768px) {
-  .app-container{
+  .app-container {
     flex-direction: column;
   }
-  .navigation-container{
+  .navigation-container {
     display: flex;
     flex-direction: row;
-    width:100%;
-    height:100px;
+    width: 100%;
+    height: 100px;
     margin-top: 20px;
   }
 }

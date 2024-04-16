@@ -6,3 +6,5 @@ import image5 from "./image5.jpg";
 import image6 from "./image6.jpg";
 
 export { image1, image2, image3, image4, image5, image6 };
+// ST-2/react-typescript-project/spikedDrinks.json
+// ST-2/react-typescript-project/src/assets/images/spikedImages

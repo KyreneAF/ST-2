@@ -28,9 +28,9 @@ export const router = createBrowserRouter([
         element: <SpikedMenu />,
       },
       {
-        path:"about",
-        element: <AboutUs />
-      }
+        path: "about",
+        element: <AboutUs />,
+      },
     ],
   },
 ]);

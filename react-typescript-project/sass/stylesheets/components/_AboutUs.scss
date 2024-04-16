@@ -1,0 +1,56 @@
+@import "../abstracts/variables.scss";
+
+.about-us {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  background-color: hsl(0, 0%, 96%);
+  .__about-us-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 50px;
+    .__header-info {
+      display: flex;
+      flex-direction: column;
+      width: 25%;
+      align-items: center;
+
+      .__info-head {
+        align-self: center;
+        font-size: 20px;
+      }
+      p {
+        font-size: 15px;
+        color: $mid-grey;
+      }
+    }
+  }
+  .__aboutUs-text {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    span {
+      font-size: 30px;
+    }
+    p {
+      color: $mid-grey;
+      font-size: 20px;
+      line-height: 2; // Adjust this value as needed for desired spacing
+    }
+  }
+  //   .__video {
+  //     video {
+  //       width: 480px;
+  //       height: 360px;
+  //     }
+  //   }
+  //   .__about-us-text {
+  //     font-size: 25px;
+  //   }
+}

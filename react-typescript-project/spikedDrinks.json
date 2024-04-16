@@ -19,7 +19,7 @@
   },
   {
     "name": "TARO REFRESHER",
-    "image": null,
+    "image": "../src/assets/images/spikedImages/taroRefresher.jpeg",
     "ingredients": ["Rum", "Crystal Boba"],
     "size": ["$9", "$10"]
   },
@@ -31,7 +31,7 @@
   },
   {
     "name": "PIÑA COLADA",
-    "image": null,
+    "image": "../src/assets/images/spikedImages/pinaColada.jpeg",
     "ingredients": ["Rum", "Coconut Creamer", "Pineapple"],
     "size": ["$9", "$10"]
   },
@@ -55,7 +55,7 @@
   },
   {
     "name": "JASMINE GREEN TEA",
-    "image": null,
+    "image": "../src/assets/images/spikedImages/spikedJasmineGT.jpg",
     "ingredients": [
       "Plain, Mango, Strawberry",
       "Vodka",
@@ -84,7 +84,7 @@
   },
   {
     "name": "TEQUILA SUNRISE",
-    "image": "../src/assets/images/spikedImages/tequilaSunrise.jpg",
+    "image": "../src/assets/images/spikedImages/tequilaSunrise.jpeg",
     "ingredients": [
       "Tequila",
       "Orange Juice",
@@ -101,7 +101,7 @@
   },
   {
     "name": "PEACH BLACK TEA",
-    "image": null,
+    "image": "../src/assets/images/spikedImages/peachBlackTea.jpeg",
     "ingredients": ["Crown Peach Whiskey"],
     "size": ["$9", "$10"]
   },

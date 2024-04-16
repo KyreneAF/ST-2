@@ -1,41 +1,49 @@
 [
   {
     "name": "SPIKED MILK TEA",
+    "image": "../src/assets/images/spikedImages/milkTea.jpg",
     "ingredients": ["Brandy", "Boba"],
     "size": ["$9", "$10"]
   },
   {
     "name": "SPIKED STRAWBERRY MILK TEA",
+    "image": null,
     "ingredients": ["Rum", "Boba"],
     "size": ["$9", "$10"]
   },
   {
     "name": "SPIKED THAI TEA",
+    "image": "../src/assets/images/spikedImages/spikedThaiTea.jpg",
     "ingredients": ["Rum", "Coffee Jelly"],
     "size": ["$9", "$10"]
   },
   {
     "name": "TARO REFRESHER",
+    "image": "../src/assets/images/spikedImages/taroRefresher.jpeg",
     "ingredients": ["Rum", "Crystal Boba"],
     "size": ["$9", "$10"]
   },
   {
     "name": "BERRY MOJITO",
+    "image": "../src/assets/images/spikedImages/berryMojito.jpg",
     "ingredients": ["Rum", "Mint", "Strawberry", "Sparkling Soda", "Boba"],
     "size": ["$9", "$10"]
   },
   {
     "name": "PIÑA COLADA",
+    "image": "../src/assets/images/spikedImages/pinaColada.jpeg",
     "ingredients": ["Rum", "Coconut Creamer", "Pineapple"],
     "size": ["$9", "$10"]
   },
   {
     "name": "HONEYDEW REFRESHER",
+    "image": "../src/assets/images/spikedImages/honeydewRefresherSpiked.jpg",
     "ingredients": ["Tequila", "Boba"],
     "size": ["$9", "$10"]
   },
   {
     "name": "CRANBERRY SURPRISE",
+    "image": "../src/assets/images/spikedImages/cranberrySurprise.jpeg",
     "ingredients": [
       "Vodka",
       "Cranberry Juice",
@@ -47,16 +55,24 @@
   },
   {
     "name": "JASMINE GREEN TEA",
+    "image": "../src/assets/images/spikedImages/spikedJasmineGT.jpg",
     "ingredients": [
-      "PLAIN, MANGO, STRAWBERRY",
-      "VODKA",
-      "ELDER FLOWER LIQUEUR",
-      "RAINBOW JELLY"
+      "Plain, Mango, Strawberry",
+      "Vodka",
+      "Elder Flower Liqueur",
+      "Rainbow Jelly"
     ],
     "size": ["$9", "$10"]
   },
   {
     "name": "LYCHEE SURPRISE",
+    "image": "../src/assets/images/spikedImages/spikedLychee.jpg",
+    "ingredients": ["Vodka", "Lemonade", "Sparkling Soda", "Lychee Jelly"],
+    "size": ["$9", "$10"]
+  },
+  {
+    "name": "DRAGONFRUIT LEMONADE",
+    "image": "../src/assets/images/spikedImages/spikedDragonfruitLemonade.jpg",
     "ingredients": [
       "Vodka",
       "Lemonade",
@@ -68,6 +84,7 @@
   },
   {
     "name": "TEQUILA SUNRISE",
+    "image": "../src/assets/images/spikedImages/tequilaSunrise.jpeg",
     "ingredients": [
       "Tequila",
       "Orange Juice",
@@ -78,16 +95,19 @@
   },
   {
     "name": "SPIKED GREEN TEA",
+    "image": "../src/assets/images/spikedImages/spikedGreentea.jpeg",
     "ingredients": ["Jameson Whiskey", "Peach Schnapps", "Sweet & Sour Mix"],
     "size": ["$9", "$10"]
   },
   {
     "name": "PEACH BLACK TEA",
+    "image": "../src/assets/images/spikedImages/peachBlackTea.jpeg",
     "ingredients": ["Crown Peach Whiskey"],
     "size": ["$9", "$10"]
   },
   {
     "name": "PASSIONFRUIT BOMB",
+    "image": "../src/assets/images/spikedImages/passionfruitBomb.jpeg",
     "ingredients": [
       "Bombay Gin",
       "Jasmine Green Tea",
@@ -98,6 +118,7 @@
   },
   {
     "name": "MANGO PALOMA",
+    "image": "../src/assets/images/spikedImages/mangoPaloma.jpeg",
     "ingredients": [
       "Tequila",
       "Orange Liqueur",
@@ -109,6 +130,7 @@
   },
   {
     "name": "Frozen Margarita",
+    "image": "../src/assets/images/spikedImages/frozenMargarita.jpeg",
     "ingredients": [
       "MANGO",
       "LYCHEE",

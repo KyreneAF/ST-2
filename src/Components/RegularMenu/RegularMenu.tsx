@@ -1,5 +1,6 @@
-import drinks from "../../../drinks.json";
 import "../../../sass/stylesheets/components/_SpikedMenu.scss";
+import drinks from "../../../drinks.json";
+import React from "react";
 
 const RegularMenu = () => {
   console.log(drinks);

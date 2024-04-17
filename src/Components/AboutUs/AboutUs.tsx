@@ -1,5 +1,5 @@
 import "../../../sass/stylesheets/components/_AboutUs.scss";
-// import video from "../../assets/videos/video.mp4";
+import React from "react";
 
 const AboutUs = () => {
   return (
@@ -37,13 +37,13 @@ const AboutUs = () => {
       </div>
       {/* THIS CODE WAS FOR A PREVIOUS VIDEO FILE TOO LARGE TO UPLOAD TO GIT HUB SO I WILL COME BACK FOR ALTERNATIVE*/}
       {/* <div className="__about-us-text">
-        <h2>Dallas' first alcoholic boba shop is here!</h2>
-      </div> */}
+            <h2>Dallas' first alcoholic boba shop is here!</h2>
+          </div> */}
       {/* <div className="__video">
-        <video className="--video" controls autoPlay>
-          <source src={video}></source>
-        </video>
-      </div> */}
+            <video className="--video" controls autoPlay>
+              <source src={video}></source>
+            </video>
+          </div> */}
     </div>
   );
 };

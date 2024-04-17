@@ -5,6 +5,7 @@ import RegularMenu from "../Components/RegularMenu/RegularMenu.tsx";
 import SpikedMenu from "../Components/SpikedMenu/SpikedMenu.tsx";
 import Splash from "../Components/Splash/Splash.tsx";
 import AboutUs from "../Components/AboutUs/AboutUs.tsx";
+import React from "react";
 // import App from "../App";
 
 export const router = createBrowserRouter([

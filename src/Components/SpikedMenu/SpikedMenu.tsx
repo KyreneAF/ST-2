@@ -1,5 +1,6 @@
 import spikedDrinks from "../../../spikedDrinks.json";
-import "../../../sass/stylesheets/components/_SpikedMenu.scss";
+import React from "react";
+// import "../../../sass/stylesheets/components/_SpikedMenu.scss";
 const SpikedMenu = () => {
   return (
     <div className="regular-menu">

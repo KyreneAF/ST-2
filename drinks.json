@@ -3,7 +3,7 @@
     "name": "CLASSIC MILK TEA",
     "ingredients": [],
     "size": ["$4", "$5"],
-    "image": "../src/assets/images/regularImages/milkTea.jpg"
+    "image": "../src/assets/images/milkTea"
   },
   {
     "name": "STRAWBERRY MILK TEA",
@@ -15,11 +15,11 @@
     "name": "THAI TEA",
     "ingredients": [],
     "size": ["$4", "$5"],
-    "image": "../src/assets/images/regularImages/thaiTea.jpg"
+    "image": "../src/assets/images/thaiTea.jpg"
   },
   {
     "name": "TARO REFRESHER",
-    "image": "../src/assets/images/spikedImages/taroRefresher.jpeg",
+    "image": "../src/assets/images/taroRefresher.jpeg",
     "ingredients": [],
     "size": ["$4", "$5"]
   },
@@ -27,23 +27,23 @@
     "name": "HONEYDEW REFRESHER",
     "ingredients": [],
     "size": ["$4", "$5"],
-    "image": "../src/assets/images/regularImages/honeydewRefrsh.jpg"
+    "image": "../src/assets/honeydewRefrsh.jpg"
   },
   {
     "name": "JASMINE GREEN TEA",
-    "image": "../src/assets/images/regularImages/jasmineGT.jpg",
+    "image": "../src/assets/images/jasmineGT.jpg",
     "ingredients": ["PLAIN", "MANGO", "STRAWBERRY"],
     "size": ["$4", "$5"]
   },
   {
     "name": "PEACH BLACK TEA",
-    "image": "../src/assets/images/spikedImages/peachBlackTea.jpeg",
+    "image": "../src/assets/images/peachBlackTea.jpeg",
     "ingredients": [],
     "size": ["$4", "$5"]
   },
   {
     "name": "SLUSHIES",
-    "image": "../src/assets/images/regularImages/slushies.jpg",
+    "image": "../src/assets/images/slushies.jpg",
     "ingredients": [
       "LYCHEE",
       "MANGO",

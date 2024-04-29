@@ -20,7 +20,7 @@ const RegularMenu = () => {
     null,
     slushies,
   ];
-  console.log(drinks);
+
   return (
     <div className="regular-menu">
       <div className="all-drinks">

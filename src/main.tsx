@@ -14,10 +14,10 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Splash />} />
-          <Route path="menu" element={<Menu />} />
-          <Route path="regular-menu" element={<RegularMenu />} />
-          <Route path="spiked-menu" element={<SpikedMenu />} />
-          <Route path="about" element={<AboutUs />} />
+          <Route path="/menu" element={<Menu />} />
+          <Route path="///regular-menu" element={<RegularMenu />} />
+          <Route path="//spiked-menu" element={<SpikedMenu />} />
+          <Route path="/about" element={<AboutUs />} />
         </Route>
       </Routes>
     </BrowserRouter>

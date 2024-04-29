@@ -10,6 +10,7 @@ import {
   image6,
 } from "../../../assets/images/carouselImages";
 import "../../../../sass/stylesheets/components/_ImageCarousel.scss";
+import React from "react";
 
 const ImageCarousel = () => {
   //   const [settings, setSettings] = useState({
@@ -57,7 +58,7 @@ const ImageCarousel = () => {
     <div className="image-carousel">
       <Slider {...settings}>
         <div>
-        <img className="carousel-img" src={image1} alt="Image 1" />
+          <img className="carousel-img" src={image1} alt="Image 1" />
         </div>
         {/* <div>
           <img className="carousel-img" src={image2} alt="Image 2" />
@@ -66,7 +67,7 @@ const ImageCarousel = () => {
           <img className="carousel-img" src={image3} alt="Image 3" />
         </div>
         <div>
-        <img className="carousel-img" src={image4} alt="Image 4" />
+          <img className="carousel-img" src={image4} alt="Image 4" />
         </div>
         <div>
           <img className="carousel-img" src={image5} alt="Image 5" />

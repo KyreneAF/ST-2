@@ -26,6 +26,10 @@ const MenuDropdown = () => {
     return () => document.removeEventListener("click", closeMenu);
   }, [showMenu]);
 
+  const closeMenu = () => {
+    setShowMenu(false);
+  };
+
   return (
     <div className="menu-dropdown">
       <div className="toggle" onClick={toggleMenu}>
@@ -34,11 +38,21 @@ const MenuDropdown = () => {
       {showMenu && (
         <div className="dropdown" ref={ulRef}>
           <div className={`navLinks ${showMenu ? "show" : ""}`}>
-            <NavLink to="/">HOME</NavLink>
-            <NavLink to="/menu">MENU</NavLink>
-            <NavLink to="/regular-menu">REGULAR MENU</NavLink>
-            <NavLink to="/spiked-menu">SPIKED MENU</NavLink>
-            <NavLink to="/about">ABOUT US</NavLink>
+            <NavLink to="/" onClick={() => closeMenu()}>
+              HOME
+            </NavLink>
+            <NavLink to="/menu" onClick={() => closeMenu()}>
+              MENU
+            </NavLink>
+            <NavLink to="/regular-menu" onClick={() => closeMenu()}>
+              REGULAR MENU
+            </NavLink>
+            <NavLink to="/spiked-menu" onClick={() => closeMenu()}>
+              SPIKED MENU
+            </NavLink>
+            <NavLink to="/about" onClick={() => closeMenu()}>
+              ABOUT US
+            </NavLink>
           </div>
         </div>
       )}

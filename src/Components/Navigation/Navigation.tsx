@@ -1,21 +1,26 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import MenuDropdown from "./MenuDropdown";
 import transparentLogo from "../../assets/images/transparentLogo.png";
 import banner from "../../assets/images/banner.png";
 import "../../../sass/stylesheets/components/_Navigation.scss";
 
 const Navigation = () => {
+  const navigate = useNavigate();
   return (
     <div className="navbar">
       <div className="__logo">
-        <img className="__logo-img" src={transparentLogo} />
-        <div className="__banner">
+        <img
+          className="__logo-img click"
+          src={transparentLogo}
+          onClick={() => navigate("/")}
+        />
+        <div className="__banner click" onClick={() => navigate("/")}>
           <img src={banner} />
         </div>
       </div>
+      <MenuDropdown />
       <div className="navLinks">
-        {/* <MenuDropdown /> */}
         <NavLink to="/">HOME</NavLink>
         <NavLink to="/menu">MENU</NavLink>
         <NavLink to="/regular-menu">REGULAR MENU</NavLink>

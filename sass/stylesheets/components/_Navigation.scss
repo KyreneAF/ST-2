@@ -17,6 +17,9 @@
     display: flex;
     flex-direction: column;
   }
+  .toggle {
+    display: none; /* Hide by default */
+  }
 
   .__logo img {
     height: 150px;
@@ -60,12 +63,18 @@
     align-items: center;
     border-bottom: 1px solid $dark-grey;
     top: 0;
+    .toggle {
+      display: visible;
+    }
     .navLinks {
       display: flex;
-      flex-direction: row;
-      font-size: 10px;
-      align-items: center;
-      margin-right: 25px;
+      flex-direction: column;
+      display: none; /* Hide by default on mobile */
+      padding: 10px;
+
+      &.show {
+        display: flex; /* Show when dropdown is active */
+      }
       a {
         font-size: 15px;
       }
@@ -95,3 +104,29 @@
   text-decoration: none;
   color: $dark-grey;
 }
+
+// .navbar {
+//   /* Other styles */
+
+//   .toggle {
+//     display: none; /* Hide by default */
+//   }
+
+//   .navLinks {
+//     display: flex;
+
+//     @media (max-width: 768px) {
+//       flex-direction: column;
+//       display: none; /* Hide by default on mobile */
+//       padding: 10px;
+
+//       &.show {
+//         display: flex; /* Show when dropdown is active */
+//       }
+
+//       a {
+//         padding: 10px 0;
+//       }
+//     }
+//   }
+// }

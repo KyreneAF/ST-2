@@ -1,0 +1,24 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/"
+    },
+    {
+      "src": "/menu",
+      "element": "/"
+    },
+    {
+      "path": "/regular-menu",
+      "element": "/"
+    },
+    {
+      "path": "/spiked-menu",
+      "element": "/"
+    },
+    {
+      "path": "/about",
+      "element": "/"
+    }
+  ]
+}

@@ -18,10 +18,13 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="__header-info">
-          <i className="fa-solid fa-phone __info-head"></i>
+          <i
+            className="fa-solid fa-phone __info-head"
+            style={{ height: "100px" }}
+          ></i>
           <p>(682) 234-0954</p>
         </div>
-        <a href="https://www.instagram.com/shotteabobabar/">
+        <a href="https://www.instagram.com/shotteabobabar/" target="_blank">
           <i className="fa-brands fa-instagram"></i>
         </a>
       </div>

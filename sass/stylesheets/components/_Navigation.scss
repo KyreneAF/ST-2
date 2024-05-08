@@ -53,6 +53,12 @@
     color: $brand-color;
     transform: scale(1.1); // expands on hover
   }
+  .menu-dropdown {
+    visibility: none;
+    .navLinks {
+      visibility: none;
+    }
+  }
 }
 
 //Media query for adjustments of screen
@@ -73,7 +79,8 @@
 
     .dropdown {
       position: relative;
-      top: 100px;
+      top: 120px;
+      transition: top 0.3s ease;
     }
     .navLinks {
       // display: flex;
@@ -113,6 +120,12 @@
       .__banner img {
         width: 100%;
       }
+    }
+    .menu-dropdown {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
     }
   }
 }

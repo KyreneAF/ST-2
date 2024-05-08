@@ -80,6 +80,7 @@
     .dropdown {
       position: relative;
       top: 120px;
+      transition: top 0.3s ease;
     }
     .navLinks {
       // display: flex;
